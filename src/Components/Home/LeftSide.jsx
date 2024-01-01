@@ -3,7 +3,7 @@ import images from "../../assets";
 
 const LeftSide = () => {
   return (
-    <div className="bg-[#121610] lg:w-1/3 lg:h-full">
+    <div className="bg-[#121610] lg:w-[50vw] lg:h-full">
       <div className="container text-white p-5 flex flex-col justify-center items-center gap-1">
         <div className="imageContainer ">
           <img src={images[0]} width={"300px"} className="rounded-full" />
