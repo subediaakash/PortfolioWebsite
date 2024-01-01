@@ -37,11 +37,11 @@ const RightSide = () => {
               </p>{" "}
               <p>ABOUT ME</p>
             </div>
-            <div className="absolute w-[70vw] lg:w-[40vw] h-[0.5px] bg-slate-600 "></div>
+            <div className="absolute w-[50vw] lg:w-[40vw] h-[0.5px] bg-slate-600 "></div>
           </div>
           <div className="contents lg:flex lg:items-center">
             <ul>
-              <li>Hello i am Aakash</li>
+              <li>Hello I am Aakash</li>
               <li>
                 I am 20 Years old and currently working on learning web dev
               </li>
