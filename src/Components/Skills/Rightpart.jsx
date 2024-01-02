@@ -8,7 +8,7 @@ const Rightpart = () => {
         <div className="skillsContainer text-white p-3">
           <div className="heading py-2">
             <div className="relative">
-              <p>Skills</p>
+              <p>SKILLS</p>
             </div>
             <div className="absolute h-[3.5px] w-[100px] bg-slate-500"></div>
           </div>

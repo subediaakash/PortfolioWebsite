@@ -6,8 +6,10 @@ const RightSection = () => {
     <div className="RightSection pt-5">
       <div className="flex flex-col gap-2 ">
         <div className="topsection pl-px-4 py-3 ">
-          <div className="works relative text-white left-3  ">WORKS</div>
-          <div className="absolute h-[3.5px] w-[100px] left-2 bg-slate-500"></div>
+          <div className="works relative text-white left-3 lg:left-0  ">
+            WORKS
+          </div>
+          <div className="absolute h-[3.5px] w-[100px] left-2  lg:left-[490px] bg-slate-500"></div>
         </div>
         <div
           className="repocontainer flex flex-col justify-center items-center gap-5
