@@ -61,16 +61,22 @@ const RightSide = () => {
             <div>
               <ul className="flex items-center ">
                 <li>
-                  <img src={images[2]} className="w-[67px]" />
+                  <a href="https://www.facebook.com/profile.php?id=100083777966279&mibextid=ZbWKwL">
+                    <img src={images[2]} className="w-[67px]" />
+                  </a>
                 </li>
                 <li>
-                  <img src={images[3]} className="w-[85px] " />
+                  <a href="https://www.instagram.com/_aakash_subedi/">
+                    <img src={images[3]} className="w-[85px] " />
+                  </a>
                 </li>
                 <li>
-                  <img
-                    src={images[5]}
-                    className="w-[55px] h-[50px] bg-white rounded-2xl "
-                  />
+                  <a href="https://github.com/spartan-readytocode">
+                    <img
+                      src={images[5]}
+                      className="w-[55px] h-[50px] bg-white rounded-2xl "
+                    />
+                  </a>
                 </li>
               </ul>
             </div>
