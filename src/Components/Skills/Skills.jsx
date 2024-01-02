@@ -4,7 +4,7 @@ import Leftpart from "./Leftpart";
 
 const Skills = () => {
   return (
-    <div className="bg-[#121610] flex">
+    <div className="bg-[#121610] flex pt-[55px]">
       <Leftpart />
       <Rightpart />
     </div>

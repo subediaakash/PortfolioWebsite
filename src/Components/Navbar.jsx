@@ -5,11 +5,11 @@ import { MdOutlinePictureAsPdf } from "react-icons/md";
 
 const Navbar = () => {
   const listItemStyle =
-    "flex align-middle gap-2 items-center font-openSans font-medium p-2 text-white relative hover:cursor-pointer hover:underline  decoration-3 underline-offset-8 transition ease-in-out  hover:text-[#969696]";
+    "flex align-middle gap-2 items-center font-openSans font-medium p-1 lg:p-2 text-white relative hover:cursor-pointer hover:underline  decoration-3 underline-offset-8 transition ease-in-out  hover:text-[#969696]";
 
   return (
     <div>
-      <div className="navcontainer p-2 bg-[#212823]">
+      <div className="navcontainer p-1 lg:p-2 bg-[#212823]">
         <ul className="flex">
           <li className={listItemStyle}>
             HOME <FaHome className="text-gray-300 " />

@@ -154,6 +154,7 @@ const Rightpart = () => {
           </div>
         </div>
       </div>
+      <div className="absolute w-[30vw] lg:w-[60vw] h-[1.5px] bg-slate-700 "></div>
     </div>
   );
 };
