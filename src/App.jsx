@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <motion.div
-      className="bg-[##121610]"
+      className="bg-[##121610] overflow-hidden"
       initial="hidden"
       animate="visible"
       variants={fadeInVariants}

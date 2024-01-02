@@ -6,7 +6,7 @@ const Rightpart = () => {
     <div>
       <div className="overallcontainer flex gap-5 items-center ">
         <div className="skillsContainer text-white p-3">
-          <div className="heading">
+          <div className="heading py-2">
             <div className="relative">
               <p>Skills</p>
             </div>

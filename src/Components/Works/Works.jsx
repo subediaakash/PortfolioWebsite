@@ -4,7 +4,10 @@ import LeftSection from "./LeftSection";
 
 const Works = () => {
   return (
-    <div className="bg-[#121610] text-gray-400 pt-[55px] pb-12 lg:flex">
+    <div
+      className="bg-[#121610] text-gray-400 pt-[55px] pb-12 lg:flex"
+      id="works"
+    >
       <LeftSection />
       <RightSection />
     </div>

@@ -9,17 +9,24 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="navcontainer p-1 lg:p-2 bg-[#212823]">
+      <div className="navcontainer p-1 lg:p-2 bg-[#212823] fixed lg:sticky lg:top-0">
         <ul className="flex">
-          <li className={listItemStyle}>
-            HOME <FaHome className="text-gray-300 " />
-          </li>
-          <li className={listItemStyle}>
-            SKILLS <IoIosSettings className="text-gray-300" />
-          </li>
-          <li className={listItemStyle}>
-            WORKS <MdWork className="text-gray-300" />
-          </li>
+          <a href="#home">
+            {" "}
+            <li className={listItemStyle}>
+              HOME <FaHome className="text-gray-300 " />
+            </li>
+          </a>
+          <a href="#skills">
+            <li className={listItemStyle}>
+              SKILLS <IoIosSettings className="text-gray-300" />
+            </li>
+          </a>
+          <a href="#works">
+            <li className={listItemStyle}>
+              WORKS <MdWork className="text-gray-300" />
+            </li>
+          </a>
           <li className={listItemStyle}>
             RESUME <MdOutlinePictureAsPdf className="text-gray-300" />
           </li>
