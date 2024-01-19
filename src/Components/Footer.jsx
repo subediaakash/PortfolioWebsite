@@ -17,14 +17,14 @@ const Footer = () => {
           <ul className="lg:flex md:flex gap-4 text-sm">
             <li className="lg:flex items-center gap-2   ">
               <p>INSTAGRAM</p>
-              <FaInstagram className="md:hidden" />
+              <FaInstagram className="md:hidden lg:block " />
             </li>
             <li className="lg:flex items-center gap-2   ">
               <p>FACEBOOK</p>
-              <FaFacebook className="md:hidden" />
+              <FaFacebook className="md:hidden lg:block" />
             </li>
             <li className="lg:flex items-center gap-2   ">
-              <p>LINKED IN</p> <FaLinkedin className="md:hidden" />
+              <p>LINKED IN</p> <FaLinkedin className="md:hidden lg:block" />
             </li>
           </ul>
         </div>
