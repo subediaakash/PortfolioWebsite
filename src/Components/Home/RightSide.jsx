@@ -71,7 +71,7 @@ const RightSide = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/spartan-readytocode">
+                  <a href="https://github.com/subediaakash">
                     <img
                       src={images[5]}
                       className="w-[55px] h-[50px] bg-white rounded-2xl "

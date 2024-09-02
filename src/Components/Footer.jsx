@@ -6,7 +6,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-[#121610] text-white border border-solid border-gray-600 mb-[0.5px]">
+    <div className="bg-[#1b1f23] text-white border border-solid border-gray-600 mb-[0.5px]">
       <div className="maincontainer  flex lg:flex-row md:flex-row md:items-center flex-col lg:justify-evenly gap-6 p-8">
         <p className="w-56 ">
           <span className="text-base font-semibold">Reach Me at :</span>{" "}

@@ -14,24 +14,21 @@ const Rightpart = () => {
           </div>
           <div className="itemskills  w-[200px]">
             {/* for html */}
-            <div className="htmlcontainer flex items-center justify-between p-2 ">
+            <div className="htmlcontainer flex items-center justify-between gap-5 p-2 ">
               <div className="name">
-                <p className="font-medium">HTML</p>
-              </div>
-              <div className="boxes">
-                <ul className="flex gap-[1.5px]">
-                  <li className="w-4 h-4 border border-black rounded-sm bg-[#b6d8b6]"></li>
+                <p className="font-medium">REACT JS</p> 
+                </div>
+                <ul className="flex gap-[1.5px]"> <li className="w-4 h-4 border border-black rounded-sm bg-[#b6d8b6]"></li>
                   <li className="w-4 h-4 border border-black rounded-sm bg-[#7cbc7c]"></li>
                   <li className="w-4 h-4 border border-black rounded-sm bg-[#2ead2e]"></li>
                   <li className="w-4 h-4 border border-slate-500  rounded-sm bg-[#2ccc2c]"></li>
                   <li className="w-4 h-4 border border-black rounded-sm bg-[#04f704]"></li>
                 </ul>
-              </div>
             </div>
             {/* for the css container */}
             <div className="csscontainer flex items-center justify-between p-2 ">
               <div className="name">
-                <p className="font-medium">CSS</p>
+                <p className="font-medium">NEXT JS</p>
               </div>
               <div className="boxes">
                 <ul className="flex gap-[1.5px]">
@@ -44,9 +41,9 @@ const Rightpart = () => {
               </div>
             </div>
             {/* FOR JAVASCRIPT CONTAINER */}
-            <div className="jscontainer flex items-center justify-between p-2 ">
+            <div className="jscontainer flex items-center justify-between p-2 gap-3">
               <div className="name">
-                <p className="font-medium">JS</p>
+                <p className="font-medium">EXPRESS</p>
               </div>
               <div className="boxes">
                 <ul className="flex gap-[1.5px]">
@@ -59,9 +56,9 @@ const Rightpart = () => {
               </div>
             </div>
             {/* for react js */}
-            <div className="reactjscontainer flex items-center justify-between p-2 ">
+            <div className="reactjscontainer flex items-center justify-between gap-2 p-2 ">
               <div className="name">
-                <p className="font-medium">REACT JS</p>
+                <p className="font-medium">POSTGRESQL</p>
               </div>
               <div className="boxes">
                 <ul className="flex gap-[1.5px]">
@@ -76,7 +73,7 @@ const Rightpart = () => {
             {/* for express */}
             <div className="expressjscontainer flex items-center justify-between p-2 ">
               <div className="name">
-                <p className="font-medium">EXPRESS JS</p>
+                <p className="font-medium">DOCKER</p>
               </div>
               <div className="boxes">
                 <ul className="flex gap-[1.5px]">

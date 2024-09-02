@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <div
-        className="flex flex-col md:flex-row lg:flex-row gap-3 p-6 bg-[#121610] "
+        className="flex flex-col md:flex-row lg:flex-row gap-3 p-6 bg-[#1b1f23] "
         id="home"
       >
         <LeftSide />
